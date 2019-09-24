@@ -1,0 +1,338 @@
+@media screen and (min-width: 320px) {
+
+.part{
+    width: auto;
+    height: 15vh;
+    border-bottom: 5px solid #3cb8ec;
+    background-color: #e9ecef;
+    display: none;
+}
+
+.logo_box{
+    width: 80%;
+    height: 65vh;
+    
+    margin-left: 6%;   
+    margin-top: 5%;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.logo_a2s{
+    height: 45vh;
+    width: 35vw;
+    opacity: 0.8;
+    
+    margin-top: 8%; 
+    
+
+}
+.logo_a2s_2{
+    height: 45vh;
+    width: 35vw;
+    opacity: 0.8;
+    
+    margin-top: 1.5%; 
+    
+
+}
+
+.logo_a2s:hover{
+    
+    opacity: 1;
+}
+
+.logo_a2s_2:hover{
+    
+    opacity: 1;
+}
+img{
+    height: 45vh;
+    width: 45vw;
+    margin-top: 1.5%; 
+}
+.a2s_2{
+    height: 50vh;
+    width: 50vw;
+    margin-top: 1.5%;
+}
+
+.histo{
+    width: 80%;
+    height: 50vh;
+    
+    margin-left: 10%;   
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_histo{
+    font-size: 0.8rem;
+}
+
+.foot{
+    height: 35vh;
+    width: auto;
+    
+    margin-top: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo_foot{
+    height: 32vh;
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.logo_foot_legal{
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+    
+}
+
+.logo_foot_contact{
+    height: 32vh;
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecef;
+
+}
+
+.contact_p{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1rem;
+    
+}
+
+.coord{
+    font-size: 0.8rem;
+    
+}
+
+.mentions{
+    font-size: 1rem;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.logo_footer{
+    margin-top: 15%;
+    height: 12vh;
+    width: 10vw;
+    opacity: 0.8;
+}
+
+.logo_footer:hover{
+    opacity: 1;
+}
+
+.jumbotron{
+    width: auto;
+    height: 110vh;
+}
+
+.part_logo{
+    
+    height: 5vh;
+    width: 5vw;
+    opacity: 0.8;
+    
+}
+
+.part_logo:hover{
+    opacity: 1;
+}
+
+.legal{
+    font-size: 0.8rem;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+}
+@media screen and (min-width: 1200px) {
+    
+    .part{
+        width: auto;
+        height: 15vh;
+        border-bottom: 5px solid #3cb8ec;
+        display: block;
+        background-color: #e9ecef;
+    }
+    
+    .logo_box{
+        width: 80%;
+        height: 50vh;
+        
+        margin-left: 8%;   
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .logo_a2s{
+        height: 45vh;
+        width: 35vw;
+        opacity: 0.8;
+        
+        margin-top: 3.5%; 
+        
+    
+    }
+    .logo_a2s_2{
+        height: 45vh;
+        width: 35vw;
+        opacity: 0.8;
+        
+        margin-top: 1.5%; 
+        
+    
+    }
+    
+    .logo_a2s:hover{
+        
+        opacity: 1;
+    }
+    .logo_a2s_2:hover{
+        
+        opacity: 1;
+    }
+
+    img{
+        height: 45vh;
+        width: 35vw;
+        margin-top: 1.5%; 
+    }
+    
+    .a2s_2{
+        height: 50vh;
+        width: 42vw;
+        margin-bottom :5%; 
+    }
+    .histo{
+        width: 80%;
+        height: 50vh;
+        
+        margin-left: 10%;   
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .text_histo{
+        font-size: 1.8rem;
+    }
+    
+    .foot{
+        height: 50vh;
+        width: auto;
+        margin-right: 9%;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .logo_foot{
+        height: 55vh;
+        width: 85vw;
+        
+        margin-top: 0.6%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #e9ecef;
+    }
+
+    .logo_foot_legal{
+        height: 55vh;
+        width: 85vw;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 0.6%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #e9ecef;
+    }
+    
+    .logo_foot_contact{
+        height: 55vh;
+        width: 85vw;
+        
+        margin-top: 0.6%;
+        display: flex;
+        flex-direction: column;
+        background-color: #e9ecef;
+    
+    }
+    
+    .contact_p{
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 2rem;
+        
+    }
+    
+    .coord{
+        font-size: 0.8rem;
+        
+    }
+    
+    .mentions{
+        font-size: 1.3rem;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    
+    .logo_footer{
+        margin-top: 45%;
+        height: 12vh;
+        width: 6vw;
+        opacity: 0.8;
+    }
+    
+    .logo_footer:hover{
+        opacity: 1;
+    }
+    
+    .jumbotron{
+        width: auto;
+        height: 85vh;
+    }
+    
+    .part_logo{
+        
+        height: 10vh;
+        width: 4.9vw;
+        opacity: 0.8;
+        
+    }
+    
+    .part_logo:hover{
+        opacity: 1;
+    }
+    
+    .legal{
+        font-size: 0.8rem;
+    }
+}
