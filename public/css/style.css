@@ -150,8 +150,7 @@ img{
 .jumbotron{
     width: auto;
     height: 110vh;
-    
-        box-shadow: 4px 4px  #35bae7;
+    box-shadow: 4px 4px  #35bae7;
 }
 
 .part_logo{
@@ -183,8 +182,6 @@ h1{
         border-bottom: 5px solid #3cb8ec;
         display: block;
         background-color: #e9ecef;
-    
-    
     }
     
     .logo_box{
@@ -228,8 +225,7 @@ h1{
     img{
         height: 45vh;
         width: 35vw;
-        margin-top: 1.5%; 
-        
+        margin-top: 1.5%;   
     }
     
     .a2s_2{
