@@ -1,0 +1,336 @@
+
+p{
+    font-size: 0.8rem;
+}
+h2{
+    font-size: 1rem;
+}
+#btnGroupDrop1{
+    background-color: #58cff6;
+    color: black;
+}
+.navbar {
+   color: black;
+}
+.logo_nav{
+    height: 10vh;
+    width: 30vw;
+}
+.d-block{
+    height: 40vh;
+    width:100%;
+}
+.carousel{
+    box-shadow: 0px 4px #99c13c;
+    margin-bottom: 35%;
+}
+.cal_box{
+    width: auto;
+    height: 70vh;
+    
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.calendar{
+    margin-top: 2%;
+    height: 100vh;
+    width: 80vw;
+    background-color: #e9ecef;
+     box-shadow: 4px 4px  #35bae7;
+     margin-left: 8%;
+     margin-bottom: 2%;
+     padding-top: 2%;
+     padding-left: 2%
+    
+}
+
+.mini_calendar{
+    margin-top: 2%;
+    margin-left: 8%;
+    height: 100vh;
+    width: 80vw;
+    background-color: #e9ecef;
+     box-shadow: 4px 4px  #35bae7;
+     margin-bottom: 50%;
+     padding-top: 2%;
+ padding-left: 2%;
+   
+    
+}
+.foot{
+    height: 35vh;
+    width: auto;
+    
+    margin-top: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo_foot{
+    height: 32vh;
+    width: 80vw;
+    margin-left: 10%;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.logo_foot_legal{
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+    box-shadow: 4px 4px  #35bae7;
+    
+}
+
+.logo_foot_contact{
+    height: 32vh;
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecef;
+    box-shadow: 4px 4px  #35bae7;
+
+}
+
+.contact_p{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1rem;
+    
+}
+
+.coord{
+    font-size: 0.8rem;
+    
+}
+
+.mentions{
+    font-size: 1rem;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.logo_footer{
+    margin-top: 15%;
+    height: 12vh;
+    width: 10vw;
+    opacity: 0.8;
+}
+
+.logo_footer:hover{
+    opacity: 1;
+}
+
+@media screen and (min-width: 1200px) {
+    .carousel{
+        margin-bottom :0%;
+    }
+    .cal_box{
+        display: flex;
+        flex-direction: row;
+    }
+    .calendar{
+        height: 50vh;
+        width: 50vw;
+    
+    }
+    .mini_calendar{
+        height: 30vh;
+        width: 25vw;
+        margin-top: 2%;
+        margin-right: 5%;
+    }
+    .logo_nav{
+        height: 8vh;
+        width: 8vw;
+    }
+    .part{
+        width: auto;
+        height: 15vh;
+        border-bottom: 5px solid #3cb8ec;
+        display: block;
+        background-color: #e9ecef;
+    }
+    
+    .logo_box{
+        width: 80%;
+        height: 50vh;
+        
+        margin-left: 8%;   
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .logo_a2s{
+        height: 45vh;
+        width: 35vw;
+        opacity: 0.8;
+        
+        margin-top: 3.5%; 
+        
+    
+    }
+    .logo_a2s_2{
+        height: 45vh;
+        width: 35vw;
+        opacity: 0.8;
+        
+        margin-top: 1.5%; 
+        
+    
+    }
+    
+    .logo_a2s:hover{
+        
+        opacity: 1;
+    }
+    .logo_a2s_2:hover{
+        
+        opacity: 1;
+    }
+
+    img{
+        height: 45vh;
+        width: 35vw;
+        
+    }
+    
+    .a2s_2{
+        height: 50vh;
+        width: 42vw;
+        margin-bottom :5%; 
+    }
+    .histo{
+        width: 80%;
+        height: 50vh;
+        
+        margin-left: 10%;   
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .text_histo{
+        font-size: 1.8rem;
+    }
+    
+    .foot{
+        height: 50vh;
+        width: auto;
+        margin-right: 9%;
+        margin-top: 0%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+        
+    }
+    
+    .logo_foot{
+        height: 55vh;
+        width: 85vw;
+        
+        margin-top: 0.6%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #e9ecef;
+     box-shadow: 4px 4px  #35bae7;
+     padding-top: 7%;
+    }
+
+    .logo_foot_legal{
+        height: 55vh;
+        width: 85vw;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 0.6%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #e9ecef;
+        box-shadow: 4px 4px  #35bae7;
+    }
+    
+    .logo_foot_contact{
+        height: 55vh;
+        width: 85vw;
+        padding-left: 1%;
+        padding-top: 5%;
+        margin-top: 0.6%;
+        display: flex;
+        flex-direction: column;
+        background-color: #e9ecef;
+     box-shadow: 4px 4px  #35bae7;
+    
+    }
+    
+    .contact_p{
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 2rem;
+        
+    }
+    
+    .coord{
+        font-size: 1.2rem;
+        
+    }
+    
+    .mentions{
+        font-size: 2rem;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    
+    .logo_footer{
+        margin-top: 45%;
+        height: 12vh;
+        width: 6vw;
+        opacity: 0.8;
+    }
+    
+    .logo_footer:hover{
+        opacity: 1;
+    }
+    
+    .jumbotron{
+        width: auto;
+        height: 85vh;
+    }
+    
+    .part_logo{
+        
+        height: 10vh;
+        width: 4.9vw;
+        opacity: 0.8;
+        
+    }
+    
+    .part_logo:hover{
+        opacity: 1;
+    }
+    
+    .legal{
+        font-size: 1.1rem;
+    }
+
+
+
+.d-block{
+    height: 70vh;
+    width:100%;
+}
+}
