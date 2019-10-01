@@ -1,45 +1,35 @@
 {% extends 'base.html.twig' %}
-
-{% block title %}User index{% endblock %}
-
-{% block body %}
+    {% block body %}
     <h1>User index</h1>
 
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Nom</th>
-                <th>Prenom</th>
+                <th>Prénom</th>
                 <th>Adresse</th>
                 <th>Ville</th>
                 <th>Mail</th>
                 <th>Tel</th>
-                <th>actions</th>
+                <th>Formations</th>
             </tr>
         </thead>
         <tbody>
         {% for user in users %}
             <tr>
-                <td>{{ user.id }}</td>
                 <td>{{ user.Nom }}</td>
                 <td>{{ user.Prenom }}</td>
                 <td>{{ user.Adresse }}</td>
                 <td>{{ user.Ville }}</td>
-                <td>{{ user.Mail }}</td>
+                <td>{{ user.Mail }}</td> 
                 <td>{{ user.Tel }}</td>
-                <td>
-                    <a href="{{ path('user_show', {'id': user.id}) }}">show</a>
-                    <a href="{{ path('user_edit', {'id': user.id}) }}">edit</a>
+                <td> {% for formation in user.formations %}
+                    {{formation.Titre}}
+                
                 </td>
-            </tr>
-        {% else %}
-            <tr>
-                <td colspan="8">no records found</td>
             </tr>
         {% endfor %}
         </tbody>
-    </table>
-
-    <a href="{{ path('user_new') }}">Create new</a>
-{% endblock %}
+    {% endblock %}
+</body>
+</html>

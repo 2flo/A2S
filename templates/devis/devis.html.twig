@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+    {% block body %}
+ 
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Adresse</th>
+                <th>Ville</th>
+                <th>Mail</th>
+                <th>Tel</th>
+                <th>Formations</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <td>{{ user.Nom }}</td>
+                <td>{{ user.Prenom }}</td>
+                <td>{{ user.Adresse }}</td>
+                <td>{{ user.Ville }}</td>
+                <td>{{ user.Mail }}</td> 
+                <td>{{ user.Tel }}</td>
+                <td> {% for formation in user.formations %}
+                    {{formation.Titre}}
+                    {% endfor %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+     </table>   
+
+    <div class="container bg-dark col-lg-5 ml-auto mr-auto">
+        {{form_start(formUser)}}
+            {{form_widget(formUser)}}
+            {{form_end(formUser)}}
+    </div>
+        
+    {% endblock %}
