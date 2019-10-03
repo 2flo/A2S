@@ -13,11 +13,9 @@ h2{
     color: black;
 }
 .logo_nav{
-    height: 10vh;
     width: 30vw;
 }
 .d-block{
-    height: 40vh;
     width:100%;
 }
 .carousel{
@@ -27,7 +25,6 @@ h2{
 }
 .cal_box{
     width: auto;
-    height: 70vh;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -36,7 +33,6 @@ h2{
 
 .calendar{
     margin-top: 4%;
-    height: 100vh;
     width: 80vw;
     background-color: #e9ecef;
     box-shadow: 4px 4px  #fecc00;
@@ -49,18 +45,15 @@ h2{
 .mini_calendar{
     margin-top: 2%;
     margin-left: 8%;
-    height: 60vh;
     width: 80vw;
     background-color: #e9ecef;
-        box-shadow: 4px 4px  #fecc00;
-        margin-bottom: 50%;
-        padding-top: 2%;
+    box-shadow: 4px 4px  #fecc00;
+    margin-bottom: 50%;
+    padding-top: 2%;
     padding-left: 2%;
 }
 .foot{
-    height: 35vh;
     width: auto;
-    
     margin-top: 55%;
     display: flex;
     flex-direction: column;
@@ -68,17 +61,14 @@ h2{
 }
 
 .logo_foot{
-    height: 32vh;
     width: 80vw;
     margin-left: 10%;
-    
     display: flex;
     justify-content: space-around;
     
     
 }
 .logo_foot_legal{
-    height: 80vh;
     width: 80vw;
     margin-left: 10%;
     margin-top: 10%;
@@ -87,19 +77,18 @@ h2{
     display: flex;
     justify-content: space-around;
     background-color: #e9ecef;
-        box-shadow: 4px 4px  #fecc00;
+    box-shadow: 4px 4px  #fecc00;
     
 }
 
 .logo_foot_contact{
-    height: 32vh;
     width: 80vw;
     margin-left: 10%;
     margin-top: 10%;
     display: flex;
     flex-direction: column;
     background-color: #e9ecef;
-        box-shadow: 4px 4px  #fecc00;
+    box-shadow: 4px 4px  #fecc00;
 
 }
 
@@ -124,7 +113,6 @@ h2{
 
 .logo_footer{
     margin-top: 15%;
-    height: 12vh;
     width: 10vw;
     opacity: 0.8;
 }
@@ -143,24 +131,21 @@ h2{
         flex-direction: row;
     }
     .calendar{
-        height: 50vh;
         width: 50vw;
     
     }
 
     .mini_calendar{
-        height: 30vh;
         width: 25vw;
         margin-top: 4%;
         margin-right: 5%;
     }
     .logo_nav{
-        height: 8vh;
         width: 11vw;
     }
+
     .part{
         width: auto;
-        height: 15vh;
         border-bottom: 5px solid #3cb8ec;
         display: block;
         background-color: #e9ecef;
@@ -168,8 +153,6 @@ h2{
     
     .logo_box{
         width: 80%;
-        height: 50vh;
-        
         margin-left: 8%;   
         margin-top: 5%;
         display: flex;
@@ -177,48 +160,36 @@ h2{
     }
     
     .logo_a2s{
-        height: 45vh;
         width: 35vw;
         opacity: 0.8;
-        
         margin-top: 3.5%; 
-        
-    
     }
+
     .logo_a2s_2{
-        height: 45vh;
         width: 35vw;
         opacity: 0.8;
-        
         margin-top: 1.5%; 
-        
-    
     }
     
     .logo_a2s:hover{
-        
         opacity: 1;
     }
+
     .logo_a2s_2:hover{
-        
         opacity: 1;
     }
 
     img{
-        height: 45vh;
         width: 35vw;
-        
     }
     
     .a2s_2{
-        height: 50vh;
         width: 42vw;
         margin-bottom :5%; 
     }
+
     .histo{
         width: 80%;
-        height: 50vh;
-        
         margin-left: 10%;   
         margin-top: 5%;
         display: flex;
@@ -230,7 +201,6 @@ h2{
     }
     
     .foot{
-        height: 50vh;
         width: auto;
         margin-right: 9%;
         margin-top: 0%;
@@ -240,10 +210,8 @@ h2{
     }
     
     .logo_foot{
-        height: 55vh;
         width: 85vw;
         padding-top: 7%;
-        
         margin-top: 0.6%;
         display: flex;
         justify-content: space-around;
@@ -252,10 +220,8 @@ h2{
     }
 
     .logo_foot_legal{
-        height: 55vh;
         width: 85vw;
         padding-left: 2%;
-        
         margin-top: 0.6%;
         display: flex;
         justify-content: space-around;
@@ -264,7 +230,6 @@ h2{
     }
     
     .logo_foot_contact{
-        height: 55vh;
         width: 85vw;
         padding-left: 1%;
         padding-top: 5%;
@@ -273,19 +238,16 @@ h2{
         flex-direction: column;
         background-color: #e9ecef;
         box-shadow: 4px 4px  #fecc00;
-    
     }
     
     .contact_p{
         margin-top: 10%;
         margin-left: 5%;
         font-size: 2rem;
-        
     }
     
     .coord{
         font-size: 1.2rem;
-        
     }
     
     .mentions{
@@ -297,7 +259,6 @@ h2{
     
     .logo_footer{
         margin-top: 45%;
-        height: 12vh;
         width: 6vw;
         opacity: 0.8;
     }
@@ -308,15 +269,11 @@ h2{
     
     .jumbotron{
         width: auto;
-        height: 55vh;
     }
     
     .part_logo{
-        
-        height: 10vh;
         width: 4.9vw;
         opacity: 0.8;
-        
     }
     
     .part_logo:hover{
@@ -327,13 +284,13 @@ h2{
         font-size: 0.94rem;
         font-family: caviar;
     }
-
-.d-block{
-    height: 70vh;
+    .d-block{
     width: 100%;
+    }
+    p{
+    font-size: 1rem;
+    }
+
+
 }
 
-p{
-    font-size: 1rem;
-}
-}

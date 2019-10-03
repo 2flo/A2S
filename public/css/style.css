@@ -2,7 +2,6 @@
 
 .part{
     width: auto;
-    height: 15vh;
     border-bottom: 5px solid #3cb8ec;
     background-color: #e9ecef;
     display: none;
@@ -10,29 +9,22 @@
 
 .logo_box{
     width: 80%;
-    height: 65vh;
-    
     margin-left: 6%;   
     margin-top: 5%;
     display: flex;
-    
     justify-content: space-around;
 }
 
 .logo_a2s{
-    height: 45vh;
     width: 35vw;
     opacity: 0.8;
-    
     margin-top: 8%; 
     
 
 }
 .logo_a2s_2{
-    height: 45vh;
     width: 35vw;
     opacity: 0.8;
-    
     margin-top: 1.5%; 
     
 
@@ -48,20 +40,16 @@
     opacity: 1;
 }
 img{
-    height: 45vh;
     width: 45vw;
     margin-top: 1.5%; 
 }
 .a2s_2{
-    height: 50vh;
     width: 50vw;
     margin-top: 1.5%;
 }
 
 .histo{
     width: 80%;
-    height: 50vh;
-    
     margin-left: 10%;   
     margin-top: 5%;
     display: flex;
@@ -73,9 +61,7 @@ img{
 }
 
 .foot{
-    height: 35vh;
     width: auto;
-    
     margin-top: 130%;
     display: flex;
     flex-direction: column;
@@ -83,7 +69,6 @@ img{
 }
 
 .logo_foot{
-    height: 32vh;
     width: 80vw;
     margin-left: 10%;
     margin-top: 60%;
@@ -93,7 +78,6 @@ img{
     
 }
 .logo_foot_legal{
-    height: 80vh;
     width: 80vw;
     margin-left: 10%;
     margin-top: 10%;
@@ -102,7 +86,7 @@ img{
     display: flex;
     justify-content: space-around;
     background-color: #e9ecef;
-        box-shadow: 4px 4px  #35bae7;
+    box-shadow: 4px 4px  #35bae7;
     
 }
 
@@ -138,7 +122,6 @@ img{
 
 .logo_footer{
     margin-top: 15%;
-    height: 12vh;
     width: 10vw;
     opacity: 0.8;
 }
@@ -149,7 +132,6 @@ img{
 
 .jumbotron{
     width: auto;
-    height: 110vh;
     box-shadow: 4px 4px  #35bae7;
 }
 
@@ -178,7 +160,6 @@ h1{
     
     .part{
         width: auto;
-        height: 15vh;
         border-bottom: 5px solid #3cb8ec;
         display: block;
         background-color: #e9ecef;
@@ -186,8 +167,6 @@ h1{
     
     .logo_box{
         width: 80%;
-        height: 50vh;
-        
         margin-left: 8%;   
         margin-top: 5%;
         display: flex;
@@ -195,48 +174,37 @@ h1{
     }
     
     .logo_a2s{
-        height: 45vh;
         width: 35vw;
         opacity: 0.8;
-        
         margin-top: 3.5%; 
-        
-    
     }
+
     .logo_a2s_2{
-        height: 45vh;
         width: 35vw;
         opacity: 0.8;
-        
         margin-top: 1.5%; 
-        
-    
     }
     
     .logo_a2s:hover{
-        
         opacity: 1;
     }
+
     .logo_a2s_2:hover{
-        
         opacity: 1;
     }
 
     img{
-        height: 45vh;
         width: 35vw;
         margin-top: 1.5%;   
     }
     
     .a2s_2{
-        height: 50vh;
         width: 42vw;
         margin-bottom :5%; 
     }
+
     .histo{
         width: 80%;
-        height: 50vh;
-        
         margin-left: 10%;   
         margin-top: 5%;
         display: flex;
@@ -248,19 +216,15 @@ h1{
     }
     
     .foot{
-        height: 50vh;
         width: auto;
         margin-right: 9%;
         margin-top: 2%;
         display: flex;
         flex-direction: row;
         margin-bottom : 5%;
-        
-        
     }
     
     .logo_foot{
-        height: 55vh;
         width: 85vw;
         padding-top: 7%;
         margin-top: 0.6%;
@@ -271,7 +235,6 @@ h1{
     }
 
     .logo_foot_legal{
-        height: 55vh;
         width: 85vw;
         padding-left: 2%;
         padding-right: 2%;
@@ -283,7 +246,6 @@ h1{
     }
     
     .logo_foot_contact{
-        height: 55vh;
         width: 85vw;
         padding-left: 1%;
         padding-top: 5%;
@@ -292,7 +254,6 @@ h1{
         flex-direction: column;
         background-color: #e9ecef;
         box-shadow: 4px 4px  #35bae7;
-    
     }
     
     .contact_p{
@@ -315,7 +276,6 @@ h1{
     
     .logo_footer{
         margin-top: 45%;
-        height: 12vh;
         width: 6vw;
         opacity: 0.8;
     }
@@ -326,17 +286,11 @@ h1{
     
     .jumbotron{margin-bottom: 30%;
         width: auto;
-        height: 45vh;
-        
     }
     
     .part_logo{
-        
-        height: 10vh;
         width: 4.1vw;
         opacity: 0.8;
-    
-        
     }
     
     .part_logo:hover{
