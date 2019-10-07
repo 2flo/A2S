@@ -39,9 +39,6 @@ h2{
 
 .calendar{
     margin-top: 2%;
-    width: 80vw;
-    background-color: #e9ecef;
-    box-shadow: 4px 4px  #35bae7;
     margin-left: 8%;
     margin-bottom: 2%;
     padding-top: 2%;
@@ -228,7 +225,6 @@ h2{
     }
     
     .logo_foot_contact{
-        height: 55vh;
         width: 85vw;
         padding-left: 1%;
         padding-top: 5%;

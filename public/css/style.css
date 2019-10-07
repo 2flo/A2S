@@ -99,7 +99,6 @@ h1{
 }
 
 .logo_foot_contact{
-    height: 32vh;
     width: 80vw;
     margin-left: 10%;
     margin-top: 10%;
@@ -144,8 +143,6 @@ h1{
 }
 
 .part_logo{
-    
-    height: 5vh;
     width: 5vw;
     opacity: 0.8;
     
