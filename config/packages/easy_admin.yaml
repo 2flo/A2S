@@ -5,4 +5,5 @@ easy_admin:
        - App\Entity\Formation
        - App\Entity\Situation
        - App\Entity\Categorie
+       - App\Entity\UserName
        
