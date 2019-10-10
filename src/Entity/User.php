@@ -62,6 +62,7 @@ class User
     {
         $this->formations = new ArrayCollection();
         $this->situations = new ArrayCollection();
+        $this->message = new ArrayCollection();
     }
 
   
@@ -192,6 +193,32 @@ class User
     {
         if ($this->situations->contains($situation)) {
             $this->situations->removeElement($situation);
+        }
+
+        return $this;
+    }
+
+     /**
+     * @return Collection|Message[]
+     */
+    public function getMessage(): Collection
+    {
+        return $this->message;
+    }
+
+    public function addMessage(Message $message): self
+    {
+        if (!$this->message->contains($message)) {
+            $this->message[] = $message;
+        }
+
+        return $this;
+    }
+
+    public function removeMessage(Message $message): self
+    {
+        if ($this->message->contains($message)) {
+            $this->message->removeElement($message);
         }
 
         return $this;

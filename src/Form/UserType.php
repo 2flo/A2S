@@ -25,6 +25,7 @@ class UserType extends AbstractType
             ->add('Tel')
             ->add('formations')
             ->add('situations')
+            ->add('Message')
             ->add('submit', SubmitType::class)
         ;
     }
