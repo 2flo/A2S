@@ -23,14 +23,10 @@ class Formation
      */
     private $Titre;
 
-    
-
     /**
      * @ORM\Column(type="text", nullable=true)
      */
     private $Message;
-
-   
 
     /**
      * @ORM\ManyToMany(targetEntity="App\Entity\User", mappedBy="formations")
@@ -38,14 +34,13 @@ class Formation
     private $users;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Categorie", inversedBy="formations")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="formations")
      */
-    private $categories;
+    private $categorie;
 
     public function __construct()
     {
         $this->users = new ArrayCollection();
-        $this->categories = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -74,6 +69,18 @@ class Formation
     public function setMessage(?string $Message): self
     {
         $this->Message = $Message;
+
+        return $this;
+    }
+
+    public function getCategorie(): ?string
+    {
+        return $this->categorie;
+    }
+
+    public function setCategorie(?string $categorie): self
+    {
+        $this->categorie = $categorie;
 
         return $this;
     }
@@ -110,31 +117,5 @@ class Formation
     public function __toString()
     {
         return $this->Titre;
-    }
-
-    /**
-     * @return Collection|Categorie[]
-     */
-    public function getCategories(): Collection
-    {
-        return $this->categories;
-    }
-
-    public function addCategory(Categorie $category): self
-    {
-        if (!$this->categories->contains($category)) {
-            $this->categories[] = $category;
-        }
-
-        return $this;
-    }
-
-    public function removeCategory(Categorie $category): self
-    {
-        if ($this->categories->contains($category)) {
-            $this->categories->removeElement($category);
-        }
-
-        return $this;
     }
 }

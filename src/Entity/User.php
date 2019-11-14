@@ -54,20 +54,15 @@ class User
     private $formations;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Situation", inversedBy="users")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Situation", inversedBy="users")
      */
-    private $situations;
+    private $situation;
 
     public function __construct()
     {
         $this->formations = new ArrayCollection();
-        $this->situations = new ArrayCollection();
         $this->message = new ArrayCollection();
     }
-
-  
-    
- 
 
     public function getId(): ?int
     {
@@ -145,6 +140,18 @@ class User
 
         return $this;
     }
+    
+    public function getSituation(): ?Situation
+    {
+        return $this->situation;
+    }
+
+    public function setSituation(Situation $situation): self
+    {
+        $this->situation = $situation;
+
+        return $this;
+    }
 
     /**
      * @return Collection|Formation[]
@@ -172,59 +179,6 @@ class User
         return $this;
     }
 
-    /**
-     * @return Collection|Situation[]
-     */
-    public function getSituations(): Collection
-    {
-        return $this->situations;
-    }
-
-    public function addSituation(Situation $situation): self
-    {
-        if (!$this->situations->contains($situation)) {
-            $this->situations[] = $situation;
-        }
-
-        return $this;
-    }
-
-    public function removeSituation(Situation $situation): self
-    {
-        if ($this->situations->contains($situation)) {
-            $this->situations->removeElement($situation);
-        }
-
-        return $this;
-    }
-
-     /**
-     * @return Collection|Message[]
-     */
-    public function getMessage(): Collection
-    {
-        return $this->message;
-    }
-
-    public function addMessage(Message $message): self
-    {
-        if (!$this->message->contains($message)) {
-            $this->message[] = $message;
-        }
-
-        return $this;
-    }
-
-    public function removeMessage(Message $message): self
-    {
-        if ($this->message->contains($message)) {
-            $this->message->removeElement($message);
-        }
-
-        return $this;
-    }
-
-    
     public function __toString()
     {
         return $this->Nom;

@@ -29,12 +29,7 @@ class Situation
     private $Entreprise;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="situations")
-     */
-    private $User;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\User", mappedBy="situations")
+     * @ORM\OneToMany(targetEntity="App\Entity\User", mappedBy="situations")
      */
     private $users;
 
@@ -68,18 +63,6 @@ class Situation
     public function setEntreprise(string $Entreprise): self
     {
         $this->Entreprise = $Entreprise;
-
-        return $this;
-    }
-
-    public function getUser(): ?User
-    {
-        return $this->User;
-    }
-
-    public function setUser(?User $User): self
-    {
-        $this->User = $User;
 
         return $this;
     }
