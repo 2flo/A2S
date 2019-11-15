@@ -75,21 +75,21 @@ class Situation
         return $this->users;
     }
 
-    public function addUser(User $user): self
+    public function addUser(User $users): self
     {
-        if (!$this->users->contains($user)) {
-            $this->users[] = $user;
-            $user->addSituation($this);
+        if (!$this->users->contains($users)) {
+            $this->users[] = $users;
+            $users->addSituation($this);
         }
 
         return $this;
     }
 
-    public function removeUser(User $user): self
+    public function removeUser(User $users): self
     {
-        if ($this->users->contains($user)) {
-            $this->users->removeElement($user);
-            $user->removeSituation($this);
+        if ($this->users->contains($users)) {
+            $this->users->removeElement($users);
+            $users->removeSituation($this);
         }
 
         return $this;
