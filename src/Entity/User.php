@@ -56,7 +56,7 @@ class User
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Situation", inversedBy="users")
      */
-    private $situation;
+    private $situations;
 
     public function __construct()
     {
@@ -146,9 +146,9 @@ class User
         return $this->situation;
     }
 
-    public function setSituation(Situation $situation): self
+    public function setSituation(Situation $situations): self
     {
-        $this->situation = $situation;
+        $this->situation = $situations;
 
         return $this;
     }
